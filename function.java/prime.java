@@ -4,7 +4,7 @@ public class Prime {
             return false;
         }
         boolean prime = true;
-        for (int i = 2; i <= Math.sqrt(n); i++) { 
+        for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
                 prime = false;
                 break;
@@ -14,7 +14,7 @@ public class Prime {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPrime(12)); // Output: false
-        System.out.println(isPrime(7));  // Output: true
+        System.out.println(isPrime(14)); // Output: false
+        System.out.println(isPrime(9));  // Output: true
     }
 }

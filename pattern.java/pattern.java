@@ -28,9 +28,9 @@ public class pattern {
     public static void main(String args[]) {
         hollow_rectange(4, 5);
 
-        inverted_rotated_half_pyramid(7);
+        // inverted_rotated_half_pyramid(7);
 
-        // inverted_rotated_half_pyramid_withNumbers(5);
+         inverted_rotated_half_pyramid_withNumbers(5);
     }
 
 }
