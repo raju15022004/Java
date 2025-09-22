@@ -17,7 +17,7 @@ public class root {
         System.out.println("Not a quadratic equation(a=0).");
 
       }else{
-        double root1=0;
+        double root1=1;
         double root2=-(b+1)/a;
 
         System.out.println("Root 1 = " +root1);
