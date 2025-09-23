@@ -13,7 +13,7 @@ public class greater {
     System.out.println("Enter second number");
     int b=sc.nextInt();
 
-    if(a>b){
+    if(a>=b){
 
       System.out.println("Greatest number is:"+a);
     }
