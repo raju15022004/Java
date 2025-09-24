@@ -24,7 +24,7 @@ public class butterly {
             System.out.println();
         }
 
-        } 
+        }
         public static void butterly(int n){
             for(int i=1;i<=n;i++){
 
@@ -51,7 +51,7 @@ public class butterly {
                 }
                 System.out.println();
             }
-        } 
+        }
 
     //     public static void solid_rhombus(int n){
     //         for(int i=1;i<=n;i++){
@@ -113,8 +113,8 @@ public class butterly {
         // butterly(4);
         // solid_rhombus(4);
         // hollow_rhombus(5 );
-        diamond(5);
+        diamond(6);
     }
 
-    
+
 }
