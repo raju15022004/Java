@@ -53,7 +53,7 @@
 
 public class ifelse{
   public static void main(String[] args) {
-      int age=16 ;
+      int age=18 ;
 
       if(age>=18){
         System.out.println("adult");
