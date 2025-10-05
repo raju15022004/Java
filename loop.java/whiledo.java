@@ -1,7 +1,4 @@
 
-import java.util.Scanner;
-
-// public class whiledo {
 //   public static void main(String[] args) {
 //       int counter=0;
 //       while(counter<100){
@@ -28,18 +25,30 @@ import java.util.Scanner;
 
 ////////////////////// sum number ////////////
 
-public class whiledo{
+// public class whiledo{
+//   public static void main(String[] args) {
+//       Scanner sc=new Scanner(System.in);
+//       int n =sc.nextInt();
+//       int sum=0;
+
+//       int i=1;
+//       while(i<=n){
+//         sum +=i;
+//         i++;
+//       }
+
+//       System.out.println("sum is :"+sum );
+//   }
+// }
+
+
+/////////////////// for loop ////////////////
+ public class whiledo{
   public static void main(String[] args) {
-      Scanner sc=new Scanner(System.in);
-      int n =sc.nextInt();
-      int sum=0;
+       int A=1;
 
-      int i=1;
-      while(i<=n){
-        sum +=i;
-        i++;
+      for(int i=1;i<=10;i++){
+        System.out.println("Raju");
       }
-
-      System.out.println("sum is :"+sum);
   }
-}
+ }
