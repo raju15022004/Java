@@ -140,7 +140,7 @@ public class fun{
   }
 
   public static void main(String[] args) {
-      System.out.println(binCoeff(5, 2));
+      System.out.println(binCoeff(6, 3));
   }
 }
 
