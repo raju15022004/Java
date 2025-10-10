@@ -66,38 +66,38 @@
 
 /////////////// factorial ///////////////
 
-public class fun{
+// public class fun{
 
-  public static void printHelloWorld(){
-    System.out.println("Hello world");
-    System.out.println("Hello world");
-    System.out.println("Hello world");
-  }
+//   public static void printHelloWorld(){
+//     System.out.println("Hello world");
+//     System.out.println("Hello world");
+//     System.out.println("Hello world");
+//   }
 
-  public static void swap(int a, int b){
-    int temp=a;
-    a=b;
-    b=temp;
-  }
+//   public static void swap(int a, int b){
+//     int temp=a;
+//     a=b;
+//     b=temp;
+//   }
 
-  public static int multiply(int a, int b){
-    int product=a*b;
-    return product;
-  }
+//   public static int multiply(int a, int b){
+//     int product=a*b;
+//     return product;
+//   }
 
-  public static int factorial(int n){
-    int f=1;
+//   public static int factorial(int n){
+//     int f=1;
 
-    for(int i=1;i<=n;i++){
-      f=f*i;
-    }
-    return f;
-  }
+//     for(int i=1;i<=n;i++){
+//       f=f*i;
+//     }
+//     return f;
+//   }
 
-  public static void main(String[] args) {
-      System.out.println(factorial(5));
-  }
-}
+//   public static void main(String[] args) {
+//       System.out.println(factorial(5));
+//   }
+// }
 
 
 ///////////////// binomial ///////////////
@@ -144,3 +144,20 @@ public class fun{
 //   }
 // }
 
+//////////////// overloading ////////////
+
+public class fun{
+
+  public static int sum(int a,int b){
+    return a+b;
+  }
+
+  public static int sum(int a, int b,int c) {
+      return a+b+c;
+  }
+  public static void main(String[] args) {
+      System.out.println(sum(3,5));
+      System.out.println(sum(5,2,1));
+  }
+
+}
