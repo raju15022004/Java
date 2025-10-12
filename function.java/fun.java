@@ -164,24 +164,50 @@
 
 /////////// prime ////////////
 
+// public class fun{
+
+//   public static int sum(int a,int b){
+//     return a+b;
+//   }
+
+//   public static boolean isPrime(int n){
+//     boolean isPrime=true;
+//     for(int i=2;i<=n-1;i++){
+//       if(n%i==0){
+//         isPrime=false;
+//         break;
+//       }
+//     }
+
+//     return  isPrime;
+//   }
+//   public static void main(String[] args) {
+//       System.out.println(isPrime(12));
+//   }
+// }
+
+
+////////////// binary to  decimal ///////////////
+
 public class fun{
 
-  public static int sum(int a,int b){
-    return a+b;
-  }
+  public static void binToDec(int binNum){
+    int myNum=binNum;
+    int pow=0;
+    int decNum=0;
 
-  public static boolean isPrime(int n){
-    boolean isPrime=true;
-    for(int i=2;i<=n-1;i++){
-      if(n%i==0){
-        isPrime=false;
-        break;
-      }
+    while(binNum>0){
+      int lastDigit=binNum%10;
+      decNum=decNum + (lastDigit * (int) Math.pow(2,pow));
+
+      pow++;
+      binNum=binNum/10;
+
     }
-
-    return  isPrime;
+    System.out.println("decimal of"+myNum+" = "+decNum);
   }
+
   public static void main(String[] args) {
-      System.out.println(isPrime(12));
+      binToDec(111);
   }
 }
