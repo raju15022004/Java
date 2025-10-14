@@ -1,8 +1,4 @@
 
-import java.util.Scanner;
-
-
-// import java.util.Scanner;
 
 // // package practice Question;
 
@@ -61,17 +57,32 @@ import java.util.Scanner;
 
 ///////////// emultiplicationtableofanumber N /////////////
 
-public class loop{
-  public static void printMultiplicationTable(int number ){
-    Scanner sc=new Scanner(System.in);
-    System.out.print("Enter number");
-    int n=sc.nextInt();
-    for(int i=1;i<=10;i++){
-      System.out.println(n+" * " + i + " = " + n*i);
-    }
+// public class loop{
+//   public static void printMultiplicationTable(int number ){
+//     Scanner sc=new Scanner(System.in);
+//     System.out.print("Enter number");
+//     int n=sc.nextInt();
+//     for(int i=1;i<=10;i++){
+//       System.out.println(n+" * " + i + " = " + n*i);
+//     }
 
-  }
+//   }
+//   public static void main(String[] args) {
+//       printMultiplicationTable(5);
+//   }
+// }
+
+
+////////////  Scope of variable  ///////////
+
+public class loop{
   public static void main(String[] args) {
-      printMultiplicationTable(5);
+
+    for(int i=0;i<=5;i++){
+    System.out.println("i = " + i);
   }
+
+  System.out.println("i after the loop = " );
+  }
+
 }
