@@ -42,19 +42,36 @@ import java.util.Scanner;
 
 //////////////////  factorialofanumber  ////////////
 
+// public class loop{
+//   public static void main(String[] args) {
+//       Scanner sc =new Scanner(System.in);
+//       int num;
+//       int fact = 1;
+
+//       System.out.print("Enter any positive integer");
+//       num = sc.nextInt();
+
+//       for(int i=1;i<=num;i++){
+//         fact *=i;
+//       }
+//       System.out.println("factorial"+fact);
+//   }
+
+// }
+
+///////////// emultiplicationtableofanumber N /////////////
+
 public class loop{
-  public static void main(String[] args) {
-      Scanner sc =new Scanner(System.in);
-      int num;
-      int fact = 1;
+  public static void printMultiplicationTable(int number ){
+    Scanner sc=new Scanner(System.in);
+    System.out.print("Enter number");
+    int n=sc.nextInt();
+    for(int i=1;i<=10;i++){
+      System.out.println(n+" * " + i + " = " + n*i);
+    }
 
-      System.out.print("Enter any positive integer");
-      num = sc.nextInt();
-
-      for(int i=1;i<=num;i++){
-        fact *=i;
-      }
-      System.out.println("factorial"+fact);
   }
-
+  public static void main(String[] args) {
+      printMultiplicationTable(5);
+  }
 }
