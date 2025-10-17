@@ -68,7 +68,7 @@ public class loop{
 
   }
   public static void main(String[] args) {
-      printMultiplicationTable(5);
+      printMultiplicationTable(6);
   }
 }
 
