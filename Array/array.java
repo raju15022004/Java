@@ -39,27 +39,55 @@
 
 ////////////// largest ///////
 
-public class array{
-  public static int  getLargest(int numbers[]) {
-      int largest = Integer.MIN_VALUE;
-      int smallest=Integer.MAX_VALUE;
+// public class array{
+//   public static int  getLargest(int numbers[]) {
+//       int largest = Integer.MIN_VALUE;
+//       int smallest=Integer.MAX_VALUE;
 
-      for(int i=0;i<numbers.length;i++){
-        if(largest<numbers[i]){
-          largest=numbers[i];
+//       for(int i=0;i<numbers.length;i++){
+//         if(largest<numbers[i]){
+//           largest=numbers[i];
 
-        }
-        if(smallest>numbers[i]){
-          smallest=numbers[i];
-        }
+//         }
+//         if(smallest>numbers[i]){
+//           smallest=numbers[i];
+//         }
+//       }
+//       System.out.println("samllest value is :"+smallest);
+//       return largest;
+//   }
+
+//   public static void main(String[] args) {
+//       int numbers[]={1,2,6,3,5};
+//       System.out.println("largest value is:"+getLargest(numbers));
+//   }
+// }
+
+////////////// bineary search ////////////////
+
+ public class array{
+
+  public static int binearySearch(int numbers[],int key){
+    int start=0,end=numbers.length-1;
+
+    while(start <= end){
+      int mid = (start + end)/2;
+
+      if(numbers[mid] == key){
+        return mid;
       }
-      System.out.println("samllest value is :"+smallest);
-      return largest;
+      if(numbers[mid]<key){
+        start=mid+1;
+      }
+      else{
+        end=mid-1;
+      }
+    }
+    return-1;
   }
-
   public static void main(String[] args) {
-      int numbers[]={1,2,6,3,5};
-      System.out.println("largest value is:"+getLargest(numbers));
+      int numbers[]={2,4,6,8,10,12,14};
+      int key=10;
+      System.out.println("index for key is :"+binearySearch(numbers, key));
   }
-}
-
+ }
