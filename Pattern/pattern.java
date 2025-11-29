@@ -257,7 +257,8 @@ public class pattern {
 
     public static void main(String args[]){
     // butterfly(4);
-    solid_rhombus(8);
+    solid_rhombus(9);
+    
 
   }
 
