@@ -307,7 +307,7 @@ public class pattern {
       }
     }
     public static void main(String args[]){
-    Diamond(5);
+    Diamond(8);
 
   }
 
