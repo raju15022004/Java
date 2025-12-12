@@ -3,7 +3,7 @@
 public class Sum {
   public static void main(String[] args) {
       int[] arr={2,7,4,5,9,1,3};
-      int sum=2;
+      int sum=4;
 
       System.out.println("jodiya jinka total"+sum+"hai");
 
