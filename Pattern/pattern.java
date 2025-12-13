@@ -1,25 +1,25 @@
-// public class pattern {
-//   public static void hollow_reactangle(int totRows,int totCols){
-//     for(int i=1;i<=totRows;i++){
-//       for(int j=1;j<=totCols;j++){
-//         if(i == 1 || i == totRows || j == 1 || j == totCols){
-//           System.out.print("*");
-//         }else{
-//           System.out.print(" ");
-//         }
-//       }
-//       System.out.println();
+public class pattern {
+  public static void hollow_reactangle(int totRows,int totCols){
+    for(int i=1;i<=totRows;i++){
+      for(int j=1;j<=totCols;j++){
+        if(i == 1 || i == totRows || j == 1 || j == totCols){
+          System.out.print("*");
+        }else{
+          System.out.print(" ");
+        }
+      }
+      System.out.println();
 
-//     }
+    }
 
 
-//     }
-//     public static void main(String args[]){
-//       hollow_reactangle(5,9);
+    }
+    public static void main(String args[]){
+      hollow_reactangle(4,9);
 
-//   }
+  }
 
-// }
+}
 
 ////////////////// half pyramid /////////////
 
@@ -267,48 +267,48 @@
 
 ///////////// Diamond /////////////
 
-public class pattern {
-  public static void hollow_reactangle(int totRows,int totCols){
-    for(int i=1;i<=totRows;i++){
-      for(int j=1;j<=totCols;j++){
-        if(i == 1 || i == totRows || j == 1 || j == totCols){
-          System.out.print("*");
-        }else{
-          System.out.print(" ");
-        }
-      }
-      System.out.println();
+// public class pattern {
+//   public static void hollow_reactangle(int totRows,int totCols){
+//     for(int i=1;i<=totRows;i++){
+//       for(int j=1;j<=totCols;j++){
+//         if(i == 1 || i == totRows || j == 1 || j == totCols){
+//           System.out.print("*");
+//         }else{
+//           System.out.print(" ");
+//         }
+//       }
+//       System.out.println();
 
-    }
-    }
+//     }
+//     }
 
-    public static void Diamond(int n){
-      // 1st half
-      for(int i=1;i<=n;i++){
+//     public static void Diamond(int n){
+//       // 1st half
+//       for(int i=1;i<=n;i++){
 
-        for(int j=1;j<=(n-i);j++){
-          System.out.print(" ");
-        }
-        for(int j=1;j<=(2*i)-1;j++){
-          System.out.print("*");
-        }
-        System.out.println();
-      }
+//         for(int j=1;j<=(n-i);j++){
+//           System.out.print(" ");
+//         }
+//         for(int j=1;j<=(2*i)-1;j++){
+//           System.out.print("*");
+//         }
+//         System.out.println();
+//       }
 
-      for(int i=n;i>=1;i--){
+//       for(int i=n;i>=1;i--){
 
-        for(int j=1;j<=(n-i);j++){
-          System.out.print(" ");
-        }
-        for(int j=1;j<=(2*i)-1;j++){
-          System.out.print("*");
-        }
-        System.out.println();
-      }
-    }
-    public static void main(String args[]){
-    Diamond(7);
+//         for(int j=1;j<=(n-i);j++){
+//           System.out.print(" ");
+//         }
+//         for(int j=1;j<=(2*i)-1;j++){
+//           System.out.print("*");
+//         }
+//         System.out.println();
+//       }
+//     }
+//     public static void main(String args[]){
+//     Diamond(7);
 
-  }
+//   }
 
-}
+// }
