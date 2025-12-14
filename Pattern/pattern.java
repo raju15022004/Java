@@ -15,7 +15,7 @@ public class pattern {
 
     }
     public static void main(String args[]){
-      hollow_reactangle(4,9);
+      hollow_reactangle(4,8);
 
   }
 
