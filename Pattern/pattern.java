@@ -53,7 +53,7 @@ public class pattern {
       }
     }
     public static void main(String args[]){
-     inverted_rotated_half_pyramid(6);
+     inverted_rotated_half_pyramid(7);
 
   }
 
