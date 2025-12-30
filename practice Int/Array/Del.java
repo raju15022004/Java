@@ -1,7 +1,7 @@
 public class Del {
   public static void main(String[] args) {
       int[] arr={10,20,30,40,50,60,70,80};
-      int index=5;
+      int index=4;
 
       for(int i=index;i<arr.length-1;i++){
         arr[i]=arr[i++];
