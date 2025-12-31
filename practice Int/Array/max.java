@@ -2,7 +2,7 @@ public class max {
   public static void main(String[] args) {
       int[] arr={10,20,90,40,70,80};
 
-      int min=arr[3];
+      int min=arr[4];
 
 
 
