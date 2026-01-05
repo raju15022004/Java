@@ -1,6 +1,6 @@
 public class max {
   public static void main(String[] args) {
-      int[] arr={10,20,90,40,70,80,90};
+      int[] arr={10,20,90,40,70,80,90,50};
 
       int min=arr[4];
 
