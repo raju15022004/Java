@@ -188,7 +188,7 @@ public class pattern {
       }
     }
     public static void main(String args[]){
-      zero_one_triangle(9);
+      zero_one_triangle(5);
 
   }
 
