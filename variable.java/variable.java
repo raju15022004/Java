@@ -6,7 +6,7 @@ public class variable {
         int b=5;
         System.out.println(a);
         System.out.println(b);
-        String name="Raju";
+        String name="Raju kumar";
         System.out.println(name);
     }
 
