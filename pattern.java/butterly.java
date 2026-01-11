@@ -113,7 +113,7 @@ public class butterly {
         // butterly(4);
         // solid_rhombus(4);
         // hollow_rhombus(5 );
-        diamond(7);
+        diamond(5);
     }
 
 
