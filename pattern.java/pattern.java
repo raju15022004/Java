@@ -30,7 +30,7 @@ public class pattern {
 
         // inverted_rotated_half_pyramid(7);
 
-         inverted_rotated_half_pyramid_withNumbers(3);
+         inverted_rotated_half_pyramid_withNumbers(5);
     }
 
 }
