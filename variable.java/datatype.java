@@ -10,7 +10,7 @@ public class datatype {
       System.out.println(var);
       float price = 10;
       System.out.println(price);
-      int number=25;
+      int number=20;
       System.out.println(number);
 
     }
