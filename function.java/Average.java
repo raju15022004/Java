@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class Average {
     public static double computerAverage(double a, double b , double c){
-        
-        return (a+b+c)/3.0;   
+
+        return (a+b+c)/4.0;
      }
 
      public static void main(String[] args) {
@@ -21,5 +21,5 @@ public class Average {
          scanner.close();
 
      }
-    
+
 }
