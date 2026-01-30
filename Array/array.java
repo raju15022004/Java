@@ -142,7 +142,7 @@ public class array{
 
   }
   public static void main(String[] args) {
-      int numbers[]={2,4,6,8,10,11,14,15};
+      int numbers[]={2,4,6,8,10,11,15};
       printSubarrays(numbers);
   }
 }
