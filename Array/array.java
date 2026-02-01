@@ -141,12 +141,5 @@ public class array{
     System.out.println("total subarrays="+ts);
 
   }
-  public static void main(String[] args) {
-<<<<<<< HEAD
-      int numbers[]={2,4,6,8,10,11,14,15,16};
-=======
-      int numbers[]={2,4,6,8,10,11,15};
->>>>>>> cc32fbea21931bc976c67a44476ed5de482039b1
-      printSubarrays(numbers);
-  }
+  
 }
