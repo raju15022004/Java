@@ -59,7 +59,7 @@ public class ifelse{
         System.out.println("adult");
 
       }
-      else if(age>=16 && age < 22){
+      else if(age>=20 && age < 22){
         System.out.println("teenager");
       }
       else{
